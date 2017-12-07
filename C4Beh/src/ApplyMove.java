@@ -76,7 +76,7 @@ public class ApplyMove implements Behavior
 		return x;
 	}
 
-	public static byte[] toByte(int n)
+	public static byte[] toByte(int n)//I know it's ugly, but time was short, and I knew the method .getBytes() from a string, so I simply used that..
 	{
 		String test;
 		n++;
